@@ -1,0 +1,12 @@
+{
+    "name": "simosca/testtypeone",
+    "description": "Simple test for plugin/type",
+    "license": "MIT",
+    "type": "simosca-data",
+    "authors": [
+        {
+            "name": "simonescardoni",
+            "email": "nuclear.quantum@gmail.com"
+        }
+    ]
+}

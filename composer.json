@@ -1,0 +1,25 @@
+{
+    "name": "simosca/composer-tests",
+    "description": "Simple package to test composer tool specials",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "simonescardoni",
+            "email": "nuclear.quantum@gmail.com"
+        }
+    ],
+    "repositories": {
+        "dev-package": {
+            "type": "path",
+            "url": "./packages/*",
+            "options": {
+                "symlink": true
+            }
+        }
+    },
+    "require": {
+        "simosca/plugintype": "dev-master",
+        "simosca/testtypeone": "dev-master",
+        "simosca/testtypetwo": "dev-master"
+    }
+}

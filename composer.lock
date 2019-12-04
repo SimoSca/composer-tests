@@ -1,0 +1,102 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "644a352fd1066b8cd1e1c341503c05cc",
+    "packages": [
+        {
+            "name": "simosca/plugintype",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./packages/plugintype",
+                "reference": "fd754c9e2f51835ccf8182d258495f36168c0e74"
+            },
+            "require": {
+                "composer-plugin-api": "^1.1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "SimoSca\\PluginType\\Composer\\TypeSimoScaTestInstaller"
+            },
+            "autoload": {
+                "psr-4": {
+                    "SimoSca\\PluginType\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "simonescardoni",
+                    "email": "nuclear.quantum@gmail.com"
+                }
+            ],
+            "description": "Simple test for plugin/type",
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "simosca/testtypeone",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./packages/testtypeone",
+                "reference": "6fd29ec4597138494f37bdf93bc1e538003181b5"
+            },
+            "type": "simosca-data",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "simonescardoni",
+                    "email": "nuclear.quantum@gmail.com"
+                }
+            ],
+            "description": "Simple test for plugin/type",
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "simosca/testtypetwo",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./packages/testtypetwo",
+                "reference": "716ae81b77808afeb75e97bd3aa7cd5e49e33e4f"
+            },
+            "type": "simosca-data",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "simonescardoni",
+                    "email": "nuclear.quantum@gmail.com"
+                }
+            ],
+            "description": "Simple test for plugin/type",
+            "transport-options": {
+                "symlink": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "simosca/plugintype": 20,
+        "simosca/testtypeone": 20,
+        "simosca/testtypetwo": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
