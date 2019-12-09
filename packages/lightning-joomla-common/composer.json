@@ -1,0 +1,34 @@
+{
+	"name": "logotel/lightning-joomla-common",
+	"description": "Common scripts for Lightning Communities",
+	"license": "MIT",
+	"keywords": ["joomla","lightning"],
+	"type": "composer-plugin",
+	"authors": [
+		{
+			"name": "Simone Scardoni",
+			"email": "s.scardoni@logotel.it"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"SimoSca\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Test\\SimoSca\\": "tests/"
+		}
+	},
+	"extra": {
+		"class": "SimoSca\\Composer\\Joomla\\LightningJoomlaComposerPlugin"
+	},
+	"require": {
+		"php": ">=7.1.23",
+		"composer-plugin-api": "^1.1"
+	},
+	"require-dev": {
+		"composer/composer": "^1.0",
+		"phpunit/phpunit": "~4.8"
+	}
+}

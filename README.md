@@ -3,8 +3,34 @@ COMPOSER TESTS
 
 Collection of Php `Composer` tool tests.
 
+### Usage
 
-### Custo Package Type
+````bash
+docker-compose up -d
+docker-compose exec webserver bash
+````
+
+inside container
+
+````bash
+./composer.phar update
+````
+
+and test plugin custom command
+
+````bash
+./composer.phar my-plugin-command
+````
+
+### XDEBUG
+
+Better command to run the project with xdebug (from inside container):
+
+````
+bash testcomposer.sh ...
+````
+
+### Custom Package Type
 
 if I set `"type": "simosca-data"` inside one or more package (i.e. `testtypeone` and `testtypetwo`) 
 and I enable plugin to perform action with this type (`plugintype`),
@@ -22,3 +48,17 @@ See  `SimoSca\PluginType\Composer\DataInstaller`.
 
 - [https://getcomposer.org/doc/articles/custom-installers.md](https://getcomposer.org/doc/articles/custom-installers.md)
 
+
+GENERIC REFS
+------------
+
+Good repository examples:
+
+- [https://github.com/naderman/composer-aws/blob/master/composer.json](https://github.com/naderman/composer-aws/blob/master/composer.json)
+ with scome [composer explanation](https://getcomposer.org/doc/articles/plugins.md)
+ 
+### VERY GOOD
+
+very good collection of composer articles/repositories/examples:
+
+- [https://github.com/jakoch/awesome-composer/blob/master/README.md](https://github.com/jakoch/awesome-composer/blob/master/README.md)

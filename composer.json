@@ -20,6 +20,12 @@
     "require": {
         "simosca/plugintype": "dev-master",
         "simosca/testtypeone": "dev-master",
-        "simosca/testtypetwo": "dev-master"
+        "simosca/testtypetwo": "dev-master",
+        "logotel/lightning-joomla-common": "dev-master"
+    },
+    "config": {
+        "simosca": {
+            "ciccio": "pasticcio"
+        }
     }
 }

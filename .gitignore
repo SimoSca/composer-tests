@@ -1,2 +1,6 @@
 vendor/
 storage/simosca-datapackage/
+
+public/
+.htaccess
+lightning.txt

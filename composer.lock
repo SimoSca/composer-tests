@@ -4,8 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "644a352fd1066b8cd1e1c341503c05cc",
+    "content-hash": "ee36c01b1a81449fbf793ebf7290ae6a",
     "packages": [
+        {
+            "name": "logotel/lightning-joomla-common",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./packages/lightning-joomla-common",
+                "reference": "28fb1914482ea7d90290f009e3d4f6494d823b1e"
+            },
+            "require": {
+                "composer-plugin-api": "^1.1",
+                "php": ">=7.1.23"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0",
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "SimoSca\\Composer\\Joomla\\LightningJoomlaComposerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "SimoSca\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Test\\SimoSca\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Simone Scardoni",
+                    "email": "s.scardoni@logotel.it"
+                }
+            ],
+            "description": "Common scripts for Lightning Communities",
+            "keywords": [
+                "joomla",
+                "lightning"
+            ],
+            "transport-options": {
+                "symlink": true
+            }
+        },
         {
             "name": "simosca/plugintype",
             "version": "dev-master",
@@ -93,7 +141,8 @@
     "stability-flags": {
         "simosca/plugintype": 20,
         "simosca/testtypeone": 20,
-        "simosca/testtypetwo": 20
+        "simosca/testtypetwo": 20,
+        "logotel/lightning-joomla-common": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
